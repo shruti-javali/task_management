@@ -1,0 +1,21 @@
+{
+  "name": "task_db",
+  "version": "1.0.0",
+  "description": "to store the workdone in a database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "mongoDB",
+    "JS",
+    "NodeJS"
+  ],
+  "author": "Shruti Jere",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

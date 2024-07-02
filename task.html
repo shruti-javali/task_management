@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday TASK</title>
+    <style>
+        div{
+            margin-left: 30%;
+            margin-top: 10%;
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius:2%;
+
+        }
+        input{
+            width: 98%;
+            height: 20px;
+            margin: 2px;
+            padding:5px;
+        }
+        textarea{
+            width: 295px;
+            height: 79px;
+        }
+       
+    </style>
+</head>
+<body>
+   
+    <form action="http://localhost:8015/add_task" method="post" >
+        <div>
+        <label for="Date">Date:</label>
+        <input type="date" id="date" name="date" placeholder="Enter today's Date" required> <br /><br />
+        <label for="tasks" >Tasks:</label>
+        <textarea name="Tasks" id="Tasks" placeholder="Enter today's tasks" rows="3" cols="10" required ></textarea> <br /><br />
+        <label for="email-id" >Email to:</label>
+        <input type="email" id="email_id" name="email_id" placeholder="Enter the receiver Email id"/><br /><br />
+        <input type="submit" id="submitbtn" value="Submit">  
+    </div>
+
+    </form>
+
+</body>
+</html>
